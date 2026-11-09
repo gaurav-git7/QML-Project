@@ -1,0 +1,16 @@
+# Python 3.12. Versions are the ones the project was built and tested with (lower bounds).
+# For GPU training install the CUDA build of torch/torchvision from https://pytorch.org first.
+numpy>=2.1
+pandas>=2.3
+scipy>=1.15
+scikit-learn>=1.7
+joblib>=1.5
+pillow>=11
+opencv-python>=4.11
+torch>=2.6
+torchvision>=0.21
+qiskit>=2.2
+qiskit-aer>=0.17
+fastapi>=0.135
+uvicorn>=0.42
+python-multipart>=0.0.22

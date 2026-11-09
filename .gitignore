@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Front end (rebuild with `npm install && npm run build`; frontend/dist is kept so the server runs without Node)
+frontend/node_modules/
+
+# Generated data that is large or derived from the datasets - recreate with scripts/prepare_xray.py
+artifacts/cache/
+# Smoke-test output and local usage data
+artifacts_quick/
+artifacts/reader_log.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
